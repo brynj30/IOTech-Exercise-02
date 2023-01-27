@@ -1,0 +1,38 @@
+{
+  "Devices": [{
+    "Name": "Temperature-device",
+    "Type": "Modbus",
+    "Info": "A Modbus device uuid:c92788ea-e57c-11ec-8fea-0242ac120002, used to read the temperature",
+    "value": "OTk=",
+    "timestamp": "1673542593"
+  },
+  {
+    "Name": "Pressure-device",
+    "Type": "Modbus",
+    "Info": "A Modbus device uuid:22919442-e583-11ec-8fea-0242ac120002, used to read the pressure",
+    "value": "MTc=",
+    "timestamp": "1897059393"
+    },
+  {
+    "Name": "Light-level-device",
+    "Type": "Bacnet",
+    "Info": "A Bacnet device uuid:29446300-e583-11ec-8fea-0242ac120002, used to read the light-level",
+    "value": "NTA=",
+    "timestamp": "1894380993"
+  },
+  {
+    "Name": "accelerometer-device",
+    "Type": "OPC-UA",
+    "Info": "An OPC-UA device uuid:2d9596e0-e583-11ec-8fea-0242ac120002, used to read an accelerometer",
+    "value": "MzM=",
+    "timestamp": "1894467393"
+  },
+  {
+    "Name": "Accelerometer-device",
+    "Type": "OPC-UA",
+    "Info": "An OPC-UA device uuid:31bd12a2-e583-11ec-8fea-0242ac120002, used to read an accelerometer",
+    "value": "MQ==",
+    "timestamp": "1673542593"
+  }
+  ]
+}
