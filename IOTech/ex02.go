@@ -65,13 +65,9 @@ func run() {
 
 	var inputPath string
 	var outputPath string
-	if len(os.Args) == 0 {
-		inputPath = "exercise-02/data/data.json"
-		outputPath = "exercise-02/data/output.json"
-	} else {
-		inputPath = os.Args[1]
-		outputPath = os.Args[2]
-	}
+
+	inputPath = os.Args[1]
+	outputPath = os.Args[2]
 
 	//fmt.Println("Input file: " + inputPath + "\n")
 	file, err := os.Open(inputPath)
